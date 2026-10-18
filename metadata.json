@@ -1,0 +1,6 @@
+{
+  "name": "TalentFlow AI — Recruitment Workspace",
+  "description": "AI-assisted recruitment workspace featuring structured JD analysis, multi-candidate CV evidence extraction, explainable stack ranking, tailored screening questions, hiring market snapshots, and search string generation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    font-family: 'Inter', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    letter-spacing: -0.011em;
+    color: #252B36;
+  }
+}
+
+.font-editorial {
+  font-family: 'DM Serif Display', 'Lora', serif;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+}
+
+.font-serif-body {
+  font-family: 'Lora', Georgia, serif;
+}
+
+.font-sans-ui {
+  font-family: 'Inter', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Glassmorphism & Surface Refinements */
+.glass-panel-light {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.95);
+  box-shadow: 0 20px 50px -12px rgba(37, 43, 54, 0.12), 0 4px 16px -2px rgba(37, 43, 54, 0.04);
+}
+
+.glass-input {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(232, 224, 212, 0.9);
+}
+
+/* Elegant Warm Cream Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F3EEE5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D8D0C2;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C4BAA9;
+}
